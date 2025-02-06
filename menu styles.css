@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  /*header*/
+  
+  header {
+  background-color: #070e16;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+  .logo img {
+  height: 60px;
+  margin-left:50px;
+  }
+  
+  nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+  }
+  
+  nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+  color: #ff0000;
+  }
+  
+  
+  /* menu*/
+  .menu {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #5d6670;
+  }
+  
+  .menu h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px; /* Adjusts spacing between images */
+}
+
+.menu-item {
+    max-width: 360px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 210%; /* Increase image size */
+    max-width: 360px; /* Prevents excessive size */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:nth-child(odd) {
+    text-align: left; /* Aligns odd-numbered images (left-side) */
+}
+
+.menu-item:nth-child(even) {
+    text-align: right; /* Aligns even-numbered images (right-side) */
+}
+
+.menu-item img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+  
+  .menu-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  }
+  
+  .menu-item p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  }
+  
+
+  /* Footer*/
+  
+  .footer {
+  background-color: #070e16;
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+  }
+  
+  .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  }
+  
+  .footer-logo img {
+  max-width: 150px;
+  }
+  
+  .footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  }
+  
+  .footer-social a {
+  color: #fff;
+  margin: 0 5px;
+  text-decoration: none;
+  }
+  
+  .footer-text {
+  font-size: 14px;
+  }
+  
+  
