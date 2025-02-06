@@ -137,5 +137,102 @@
   .footer-text {
   font-size: 14px;
   }
+
+
+
+/* Responsive Design */
+
+/* Mobile Screens */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo img {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .hero {
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .hero-content {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  .about {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .about-content {
+    padding-right: 0;
+    margin-left: 0;
+  }
+
+  .about-image {
+    max-width: 80%;
+    margin-right: 0;
+  }
+
+  .menu-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-item {
+    margin-bottom: 20px;
+  }
+
+  .testimonials,
+  .gallery,
+  .contact {
+    padding: 40px 20px;
+  }
+
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Tablet Screens */
+@media screen and (max-width: 1024px) {
+  .hero-content {
+    max-width: 80%;
+  }
+
+  .menu-items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu-item {
+    max-width: 250px;
+    margin: 10px;
+  }
+
+  .image-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
   
   
