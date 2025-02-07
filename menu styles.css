@@ -150,10 +150,6 @@
     .menu-item img {
         width: 100%; /* Adjust image size */
     }
-
-    nav ul li {
-        margin-right: 10px; /* Reduce spacing */
-    }
 }
 
 /* Mobile Devices (Smaller than 768px) */
@@ -166,17 +162,6 @@
 
     .logo img {
         margin-left: 0; /* Center logo */
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0; /* Stack menu items */
     }
 
     .menu-items {
